@@ -118,3 +118,71 @@ pusher_stats {
 2021-05-20 03:44:04,891 INFO    MainThread:11116 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
 2021-05-20 03:53:24,959 INFO    MainThread:11116 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'viz', 'summary_metrics') {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'key': 'summary_metrics', 'x-axis': '_step'}} None
 2021-05-20 03:54:05,086 INFO    MainThread:11116 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}} None
+2021-05-20 04:28:09,531 INFO    MainThread:11116 [wandb_run.py:_atexit_cleanup():1535] got exitcode: 0
+2021-05-20 04:28:09,533 INFO    MainThread:11116 [wandb_run.py:_restore():1507] restore
+2021-05-20 04:28:09,551 INFO    MainThread:11116 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 3930
+  total_bytes: 3930
+}
+
+2021-05-20 04:28:09,928 INFO    MainThread:11116 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 3930
+  total_bytes: 3930
+}
+
+2021-05-20 04:28:10,759 INFO    MainThread:11116 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 4
+  media_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 5275
+  total_bytes: 5275
+}
+
+2021-05-20 04:28:10,866 INFO    MainThread:11116 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 4
+  media_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 5275
+  total_bytes: 5275
+}
+
+2021-05-20 04:28:10,977 INFO    MainThread:11116 [wandb_run.py:_wait_for_finish():1657] got exit ret: file_counts {
+  wandb_count: 4
+  media_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 5275
+  total_bytes: 5275
+}
+
+2021-05-20 04:28:11,108 INFO    MainThread:11116 [wandb_run.py:_wait_for_finish():1657] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+  media_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 5275
+  total_bytes: 5275
+}
+
+2021-05-20 04:28:12,292 INFO    MainThread:11116 [wandb_run.py:_show_summary():1812] rendering summary
+2021-05-20 04:28:12,292 INFO    MainThread:11116 [wandb_run.py:_show_history():1850] rendering history
+2021-05-20 04:28:12,293 INFO    MainThread:11116 [wandb_run.py:_show_files():1879] logging synced files

@@ -1,0 +1,7 @@
+model,score,duration
+Logistic Regression,0.7988,22.249
+Random Forest,0.7742,12.289
+XGBoost,0.8035,25.03
+LinearSVC(),0.7747,35.371
+Average score,0.7878000000000001,0.0
+Average time,23.73456573486328,0.0
